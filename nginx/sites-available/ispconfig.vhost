@@ -1,6 +1,6 @@
 server {
-        listen 7569 ssl;
-        listen [::]:7569 ssl ipv6only=on;
+        listen 8080 ssl;
+        listen [::]:8080 ssl ipv6only=on;
 
 		ssl_protocols TLSv1.2;
         ssl_certificate /usr/local/ispconfig/interface/ssl/ispserver.crt;
